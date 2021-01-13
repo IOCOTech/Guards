@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>IOCOTech.Guards</PackageId>
+    <Authors>Jan Jurgens Roets van der Walt</Authors>
+    <Company>IOCO</Company>
+    <Product>IOCO Guards</Product>
+    <Description>Guards can help you do basic checks required when implementing Microsoft.CodeAnalysis.NetAnalyzers</Description>
+    <Copyright>2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/IOCOTech/Guards.git</RepositoryUrl>
+    <PackageTags>Guards;.CodeAnalysis;NetAnalyzers</PackageTags>
+  </PropertyGroup>
+
+</Project>
