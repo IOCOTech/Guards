@@ -14,7 +14,7 @@ It is one of the fundamentals in C# programming as enforced by static code analy
     <PackageTags>Guards;.CodeAnalysis;NetAnalyzers</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
 
