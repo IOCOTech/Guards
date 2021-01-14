@@ -2,6 +2,9 @@
 
 namespace Guards
 {
+    /// <summary>
+    /// Helpers for implementing NetAnalyzers
+    /// </summary>
     public static partial class Guard
     {
         /// <summary>

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30803.129
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guards", "Guards\Guards.csproj", "{D8B8589E-3C8D-419B-B7FE-C638D4450667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guards", "Guards\Guards.csproj", "{D8B8589E-3C8D-419B-B7FE-C638D4450667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guards.Unittests", "Guards.Unittests\Guards.Unittests.csproj", "{5C8B35AB-E827-4F5A-88CB-7F750A50B4BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D8B8589E-3C8D-419B-B7FE-C638D4450667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B8589E-3C8D-419B-B7FE-C638D4450667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B8589E-3C8D-419B-B7FE-C638D4450667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C8B35AB-E827-4F5A-88CB-7F750A50B4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8B35AB-E827-4F5A-88CB-7F750A50B4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8B35AB-E827-4F5A-88CB-7F750A50B4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8B35AB-E827-4F5A-88CB-7F750A50B4BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

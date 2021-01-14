@@ -12,7 +12,7 @@ namespace Guards
         /// <param name="paramName">Name of parameter that caused the exception</param>
         /// <param name="value">The value that will be checked for null</param>
         /// <exception cref="ArgumentNullException">The <paramref name="value" /> parameter is null.</exception>
-        public static void ArgumentNotNull<T>([ValidatedNotNull] T value, string paramName)
+        public static void ArgumentNotNull<T>([ValidatedNotNull] T value, string paramName = nameof(T))
         {
             if (value == null)
             {

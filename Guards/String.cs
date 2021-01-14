@@ -10,7 +10,6 @@ namespace Guards
         ///     Checks if string Value is null or empty. Throws a ArgumentNullException if Value is null and 
         ///     a ArgumentException if Value is an empty string with the specified error message.
         /// </summary>
-        /// <param name="paramName">Name of parameter that caused the exception</param>
         /// <param name="value">The value that will be checked for null</param>
         /// <param name="message">A message that describes the error</param>
         /// <exception cref="ArgumentNullException">The <paramref name="value" /> parameter is null.</exception>

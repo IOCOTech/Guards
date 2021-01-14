@@ -12,6 +12,8 @@
     <RepositoryUrl>https://github.com/IOCOTech/Guards.git</RepositoryUrl>
     <PackageTags>Guards;.CodeAnalysis;NetAnalyzers</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
