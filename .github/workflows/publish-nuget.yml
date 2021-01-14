@@ -31,6 +31,9 @@ jobs:
       with:
         # Filepath of the project to be packaged, relative to root of repository
         PROJECT_FILE_PATH: Guards/Guards.csproj
+      
+        # NuGet package id, used for version detection & defaults to project name
+        PACKAGE_NAME: IOCOTech.Guards
         
         # API key to authenticate with NuGet server
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
