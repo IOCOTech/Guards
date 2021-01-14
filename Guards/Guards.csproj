@@ -6,12 +6,22 @@
     <Authors>Jan Jurgens Roets van der Walt</Authors>
     <Company>IOCO</Company>
     <Product>IOCO Guards</Product>
-    <Description>Guards can help you do basic checks required when implementing Microsoft.CodeAnalysis.NetAnalyzers</Description>
+    <Description>This Guard utility makes it easy to validate arguments of public methods for null values or specific conditions.
+It is one of the fundamentals in C# programming as enforced by static code analysis (CA1062).</Description>
     <Copyright>2021</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/IOCOTech/Guards.git</RepositoryUrl>
     <PackageTags>Guards;.CodeAnalysis;NetAnalyzers</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>.\bin\Release\Guards.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
